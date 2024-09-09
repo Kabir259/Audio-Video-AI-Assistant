@@ -1,6 +1,6 @@
 # Audio-Video-AI-Assistant
 
-You need an `OPENAI_API_KEY` and a `GOOGLE_API_KEY` to run this code _(credit card too hehe)_. Store them in a `.env` file in the root directory of the project, or set them as environment variables.
+You need an `openai-api-key` to run this code _(and a credit card too hehe)_.
 
 
 If you are running the code on Apple M1/2/3, run the following command in the terminal:
