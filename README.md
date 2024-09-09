@@ -9,7 +9,7 @@ If you are running the code on Apple M1/2/3, run the following command in the te
 $ brew install portaudio
 ```
 
-Create a virtual environment, update pip, and install the required packages:
+Create a conda environment, update pip, and install the required packages:
 
 ```
 $ conda create -n "YOURENV" python=3.9
