@@ -12,14 +12,13 @@ $ brew install portaudio
 Create a virtual environment, update pip, and install the required packages:
 
 ```
-$ python3 -m venv .venv
-$ source .venv/bin/activate
-$ pip install -U pip
+$ conda create -n "YOURENV" python=3.9
+$ conda activate "YOURENV"
 $ pip install -r requirements.txt
 ```
 
 Run the assistant:
 
 ```
-$ python3 assistant.py
+$ python assistant.py
 ```
