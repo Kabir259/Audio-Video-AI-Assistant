@@ -47,17 +47,6 @@ class WebcamStream:
         """
         if self.running:
             return self
-
-    def update(self): # not using this
-        while self.running:
-            _, frame = self.stream.read()  # Read the current frame
-            self.lock.acquire()  # Acquire the lock to update the frame
-            '''The line self.lock.acquire() is calling the acquire() method on the self.lock object. 
-            This method is used to acquire a lock, which is a synchronization mechanism that 
-            allows only one thread to access a shared resource at a time'''
-            
-            self.frame = frame
-            self.lock.release()  # Release the lock
             
 
     def read(self, encode=False):
